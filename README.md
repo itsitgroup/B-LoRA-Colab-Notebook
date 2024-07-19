@@ -15,13 +15,13 @@ I've forked this repository and added a simple training script that is accessibl
 
 Feel free to experiment and good luck! Please share your findings too, I yet have to extensively test it too!
 
-(https://colab.research.google.com/github/itsitgroup/B-LoRA/blob/main/training_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/itsitgroup/B-LoRA/blob/main/training_colab.ipynb)
 
 ---
 
 # Implicit Style-Content Separation using B-LoRA
 <a href="https://B-LoRA.github.io/B-LoRA/"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=blue"></a> [![arXiv](https://img.shields.io/badge/arXiv-2403.14572-b31b1b.svg)](https://arxiv.org/abs/2403.14572)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yardenfren1996/B-LoRA/blob/main/B_LoRA_inference.ipynb) [![HuggingFace demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Yardenfren/B-LoRA) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yardenfren1996/B-LoRA/blob/main/B_LoRA_inference.ipynb) [![HuggingFace demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Yardenfren/B-LoRA) 
 
 ![Teaser Image](docs/teaser_blora.png)
 

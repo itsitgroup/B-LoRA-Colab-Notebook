@@ -1,6 +1,27 @@
+# My Additions to This Repository
+
+## Simple Training Script and Tips
+
+I've forked this repository and added a simple training script that is accessible via Google Colab. Here are some important findings and tips for using the script:
+
+- **Recommended GPU**: Use at least an L4 GPU for training. The training process takes up 10.5 GB of VRAM.
+- **Training Duration**: 
+  - Training a single model takes about 16 minutes with the default settings.
+  - While the L4 GPU has 22 GB of VRAM, allowing for the training of two models simultaneously, this approach slows down the process significantly, making it take around 35 minutes (17.5 minutes per model). Therefore, it is more efficient to train one model at a time.
+- **Image Recommendations**: 
+  - For style training, it is better to use 5 to 8 images.
+  - For content training, using just 1 image is sufficient if only using a reference image for style transfer.
+  - However, training a LoRA on a single image for content does not perform well when using prompts for image transfer. For example, using a prompt like "A [v45] in style of gold" may not yield good results as seen in the authors' mentioned notebook.
+
+Feel free to experiment and good luck!
+
+(https://colab.research.google.com/github/itsitgroup/B-LoRA/blob/main/training_colab.ipynb)
+
+---
+
 # Implicit Style-Content Separation using B-LoRA
 <a href="https://B-LoRA.github.io/B-LoRA/"><img src="https://img.shields.io/static/v1?label=Project&message=Website&color=blue"></a> [![arXiv](https://img.shields.io/badge/arXiv-2403.14572-b31b1b.svg)](https://arxiv.org/abs/2403.14572)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yardenfren1996/B-LoRA/blob/main/B_LoRA_inference.ipynb) [![HuggingFace demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Yardenfren/B-LoRA) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/itsitgroup/B-LoRA/blob/main/training_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yardenfren1996/B-LoRA/blob/main/B_LoRA_inference.ipynb) [![HuggingFace demo](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Yardenfren/B-LoRA) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
 
 ![Teaser Image](docs/teaser_blora.png)
 

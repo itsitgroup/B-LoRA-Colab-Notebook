@@ -11,9 +11,9 @@ I've forked this repository and added a simple training script that is accessibl
 - **Image Recommendations**: 
   - For style training, it is better to use 5 to 8 images.
   - For content training, using just 1 image is sufficient if only using a reference image for style transfer.
-  - However, training a LoRA on a single image for content does not perform well when using prompts for image transfer. For example, using a prompt like "A [v45] in style of gold" may not yield good results as seen in the authors' mentioned notebook.
+  - However, training a LoRA on a single image for content does not perform well when using prompts for style transfer. For example, using a prompt like "A [v45] in style of gold" may not yield good results as seen in the authors' mentioned notebook.
 
-Feel free to experiment and good luck!
+Feel free to experiment and good luck! Please share your findings too, I yet have to extensively test it too!
 
 (https://colab.research.google.com/github/itsitgroup/B-LoRA/blob/main/training_colab.ipynb)
 

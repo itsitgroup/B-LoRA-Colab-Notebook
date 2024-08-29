@@ -1,5 +1,6 @@
 accelerate
-bitsandbytes==0.36.0.post2
+# bitsandbytes==0.36.0.post2
+bitsandbytes
 datasets
 diffusers==0.25.0
 ftfy==6.1.1

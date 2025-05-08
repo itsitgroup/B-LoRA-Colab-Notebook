@@ -4,7 +4,7 @@ bitsandbytes
 datasets
 diffusers==0.25.0
 ftfy==6.1.1
-huggingface-hub
+huggingface-hub==0.24.7
 Pillow==9.4.0
 python-slugify==7.0.0
 torch==2.3.0+cu121
